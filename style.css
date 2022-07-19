@@ -89,11 +89,14 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    
    
 }
 .course{
     border: 9.5px solid rgb(245, 245, 245);
     box-shadow: 3px 0px px 0.5px;
+    border-radius: 7px;
+    
 }
 .course .course-banner img{
     width: 224px;
@@ -152,9 +155,11 @@ hr{
     }
     .courses{
         grid-template-columns: repeat(1, 1fr);
+       
     }
    .course{
     flex-direction: column;
+    
    }
     
 
